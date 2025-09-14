@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Appointment - Eddy Glam Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Eddy Glam Hub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="active">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-booking">
+        <div class="hero-content">
+            <h1>Book Your Appointment</h1>
+            <p>Choose your preferred service, date, and time. We'll take care of the rest!</p>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking">
+        <h2>Fill the Form Below</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Full Name" name="name" required>
+            <input type="email" placeholder="Email Address" name="email" required>
+            <input type="tel" placeholder="Phone Number" name="phone" required>
+            <select name="service" required>
+                <option value="">Select Service</option>
+                <option value="nails">Nails</option>
+                <option value="hair">Hair</option>
+                <option value="facials">Facials</option>
+                <option value="body">Body Care</option>
+            </select>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+        <p id="confirmation" class="confirmation"></p>
+    </section>
+
+    <!-- Contact & Info -->
+    <section class="contact-info">
+        <h2>Contact Us</h2>
+        <p>📞 +234 800 123 4567</p>
+        <p>📧 info@eddyglamhub.com</p>
+        <p>📍 Victoria Island, Lagos, Nigeria</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Eddy Glam Hub. All rights reserved.</p>
+        <div class="social">
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

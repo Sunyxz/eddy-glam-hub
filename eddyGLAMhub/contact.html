@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Eddy Glam Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Eddy Glam Hub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Booking Form -->
+    <section class="booking">
+        <h2>Book Your Appointment</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <select required>
+                <option value="">Select Service</option>
+                <option value="nails">Nails</option>
+                <option value="hair">Hair</option>
+                <option value="facials">Facials</option>
+                <option value="body">Body Care</option>
+            </select>
+            <input type="date" required>
+            <input type="time" required>
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+        <p id="confirmation" class="confirmation"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Eddy Glam Hub. All rights reserved.</p>
+        <div class="social">
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
